@@ -1,0 +1,62 @@
+body {
+	height: 100vh;
+	padding: 0px;
+	margin: 0px;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+    background-image: url("Master-song-Vaathi-Raid-1200.jpg");
+	background-size: cover;
+	
+}
+
+.beatbox {
+    width: 580px;
+    height: 580px;
+    background-color: #7CF313;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.beat {
+	color: white; 
+	width: 150px;	
+	flex-basis: 30%;
+	/* this flex-basis is added after the live session and this java script
+	should take 30% of the parent size */
+	height: 150px;
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	border: 1px solid green;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 10px;
+}
+
+.blue {
+	border: 15px solid #7CF313;
+}
+
+.purple {
+	border: 15px solid #7CF313;
+}
+
+.red {
+	border: 15px solid #7CF313;
+}
